@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RJ-TasksList/static/css/main.ddceb733.css",
+    "main.js": "/RJ-TasksList/static/js/main.f20f9a65.js",
+    "static/js/787.bdbe0f82.chunk.js": "/RJ-TasksList/static/js/787.bdbe0f82.chunk.js",
+    "index.html": "/RJ-TasksList/index.html",
+    "main.ddceb733.css.map": "/RJ-TasksList/static/css/main.ddceb733.css.map",
+    "main.f20f9a65.js.map": "/RJ-TasksList/static/js/main.f20f9a65.js.map",
+    "787.bdbe0f82.chunk.js.map": "/RJ-TasksList/static/js/787.bdbe0f82.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ddceb733.css",
+    "static/js/main.f20f9a65.js"
+  ]
+}
