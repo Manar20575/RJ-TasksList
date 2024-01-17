@@ -1,38 +1,89 @@
-.App {
-  text-align: center;
+*{
+  font-family: 'Lora', serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+hr{
+  height: 8px;
+  background-color: #ec95d6;
+  opacity: 0.8 !important;
+  border: none !important;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.task-title{
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  padding: 10px 5px;
+  position: relative;
+  text-transform: capitalize !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.title {
+  height: 140px;
+  width: 100%;
+  background-color: #ec95d6;
+}
+.tasks{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-wrap: wrap;
+  max-width: 500rem;
+}
+.add-task{
+  background-color: #000000dd !important;
+  color: #fff !important;
+}
+.task-item{
+  height: 250px;
+  width: 300px;
+  border: 1px solid #ec95d6e4;
+  margin: 10px;
+  transition: height 0.5s;
+}
+.task-title{
+  text-transform: uppercase;
+  font-size: 17px;
+  color: #000000;
+  transition: color 0.5s;
+  -webkit-transition: color 0.5s;
+  -moz-transition: color 0.5s;
+  -ms-transition: color 0.5s;
+  -o-transition: color 0.5s;
+}
+.task-detail{
+  list-style: none;
+  text-decoration: none;
+  line-height: 1.9;
+  color:#aaa ;
+}
+.ttb-effect{
+  position: relative;
+}
+.ttb-effect::after{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background-color: #cfcece57;
+  transition: height 0.5s;
+  -webkit-transition: height 0.5s;
+  -moz-transition: height 0.5s;
+  -ms-transition: height 0.5s;
+  -o-transition: height 0.5s;
+  z-index: -1;
 }
 
-.App-link {
-  color: #61dafb;
+.ttb-effect:hover::after{
+  height: 100%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.icons{
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
 }
